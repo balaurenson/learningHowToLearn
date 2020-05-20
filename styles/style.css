@@ -109,21 +109,22 @@ body{
 .description{
     
     display: flex;
+
     justify-content: center;
     margin: 0 auto;
     
 }
 
 .two-columns{
-    border: 1px solid orange; 
+    
     width: 80%;
     display: flex;
-
+    
 }
 
 
 .two-columns__brief{
-    border: 1px solid blue;
+    
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
@@ -135,7 +136,7 @@ body{
 }
 
 .two-columns__main-text{
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -146,7 +147,7 @@ body{
 }
 
 .two-columns__paragraph{
-    border: 1px solid red;
+    
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
@@ -158,7 +159,6 @@ body{
 }
 
 .two-columns_span-accent{
-    border: 1px solid green;
     line-height: 34px;
     font-size: 24px;
     font-weight: bold;
@@ -174,16 +174,16 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid red;
     margin-top: 100px;
     margin-bottom: 100px;
+    
 }
 
 .section-title{
     width: 60%;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    
     line-height: 69px;
     font-size: 60px;
     font-weight: bold;
@@ -192,13 +192,15 @@ body{
 }
 
 .section-subtitle{
-    border: 1px solid red;
+    
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
     width: 60%;
     display: flex;
     justify-content: center;
+    margin: auto;
+    
     
 }
 
@@ -206,7 +208,9 @@ body{
     display: flex;
     justify-content: space-around;
     width: 1100px;
-    border: 1px solid red;
+    flex-wrap: wrap;
+    
+    
     
     
 }
@@ -215,10 +219,12 @@ body{
     list-style: none;
     display: flex;
     position: relative;
-    border: 1px solid red;
+    padding-top: 60px;
+
     width: 250px;
     flex-direction: column;
     justify-content: flex-start;
+    
     
 }
 
@@ -226,21 +232,19 @@ body{
    line-height: 1.15;
    font-size: 24px;
    font-weight: bold;
-   border: 1px solid red;
+   
     margin-top: 0;
     margin-bottom: 30px;
+    
 }
 
 .table__text{
-
+    display: flex;
    line-height: 1.2;
    font-size: 18px;
    font-weight: normal;
-   border: 1px solid red;
-   display: flex;
    margin: 0;
-   
-
+   margin-bottom: 20px;
 }
 
 /* Fourth block: Feynman */
@@ -248,7 +252,7 @@ body{
 .feynman{
     position: relative;
     height: 790px;
-    border: 1px solid red;
+    
     background-color: #f2f2f2;
     background-image: url("../images/feynman.png");
     background-position: bottom left;
@@ -261,7 +265,7 @@ body{
 
 
 .feynman__title{
-    border: 1px solid red;
+    
     width:775px;
     line-height: 1.15;
     font-size: 120px;
@@ -275,7 +279,7 @@ body{
 }
 
 .feynman__subtitle{
-    border: 1px solid red;
+    
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
@@ -285,7 +289,7 @@ body{
 }
 
 .feynman__link{
-    border: 1px solid red;
+    
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
@@ -307,12 +311,12 @@ body{
     position: relative;
     padding-top: 90px;
     padding-bottom: 90px;
+    border: 1px solid red;
+    
 }
 
-
-
 .section-title_theme_dark{
-    border: 1px solid red;
+    
     line-height: 69px;
     font-size: 60px;
     font-weight: bold;
@@ -320,22 +324,20 @@ body{
     text-align: center;
     margin: 0 auto;
     margin-bottom: 20px;
-    
+    border: 1px solid red;
     
 
 }
 
 .section-subtitle_theme_dark{
-    border: 1px solid red;
+    
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
     width: 60%;
     margin: 0 auto;
-    
-    
-
+    border: 1px solid red;
 }
 
 .table__theme_dark{
@@ -344,47 +346,41 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     width: 1100px;
-    border: 1px solid orange;
     margin: auto;
-    
     z-index: 1;
-
-    
-    
+    border: 1px solid red;
 }
-
 
 .table__cell_theme_dark {
     width: 200px;
     color: white;
     position: relative;
     margin-top: 80px;
-    border: 1px solid orange;
+    
     list-style: none;
     z-index: 1;
     margin: auto;
     padding-top: 80px;
-    
+    border: 1px solid red;
 }
 
-
 .table__heading_theme_dark{
-    border: 1px solid red;
+    
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
     margin: auto;
     margin-bottom: 20px;
-
+    border: 1px solid red;
 }
 
 .table__text_theme_dark{
-    border: 1px solid red;
+    
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
     margin: auto;
-
+    border: 1px solid red;
 }
 
 .kaufman__triangle{
@@ -394,51 +390,73 @@ body{
     width: 877px;
     right: -210px;
     top: 0;
+    border: 1px solid red;
 }
-
 
 
 /* Sixth block: Footer */
 
+
 .footer{
+    display: flex;
+    position: relative;
     background-color: #1f1f1f;
     padding-top: 60px;
     padding-bottom: 40px;
-    display: flex;
     min-height: 350px;
-    border: 1px solid red;
-    position: relative;
-    display: flex;
     color: white;
-}
-
-.footer__columns{
+   
     border: 1px solid red;
-    flex-basis: 711px;
-    width: 90%;
-}
-
-.footer__column_content_copyright{
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-
+    margin: auto;
 }
 
 .logo_place_footer{
     width: 183px;
     height: 35px;
-    background-size: contains;
+    background-size: contain;
+}
+
+.footer__columns{
+    
+    
+    width: 90%;
+    margin: 0 auto;
+    min-height: 350px;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.footer_column{
+  
+  
+  
+}
+
+.footer__column_content_copyright{
+    display: flex;
+    
+    flex-direction: column;
+    flex-basis: 711px;
 }
 
 .footer__author{
+    display: flex;
+    
     border: 1px solid red;
-    bottom: 18px;
-    position: 
+    padding-top: 18px;
+    padding-bottom: 18px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto;
+    bottom: 0;
+
+    
 }
 
 .footer__column_content_info{
     border: 1px solid red;
+    
 }
 
 .footer__column-heading{
@@ -446,23 +464,46 @@ body{
     line-height: 45px;
     font-size: 18px;
     font-weight: bold;
+    margin: 0 auto;
+    margin-top: 20px;
+    
 }
 
 .footer__column-links{
-    border: 1px solid red;
+    display: flex;
+    position: relative;
+    list-style: none;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    flex-direction: row;
-    position: relative;
+    margin: auto;
+    border: 1px solid purple;
+    text-decoration: none;
+    
 }
 
 .footer__column_content-social{
     border: 1px solid red;
+    text-decoration: none;
+    position: relative;
+    list-style: none;
     
-
 }
 
 .footer__social-icon{
-    border: 1px solid red;
+    display: flex;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+    
+    left: auto;
+    
+    border: 1px solid purple;
+    
+
 }
