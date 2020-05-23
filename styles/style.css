@@ -113,13 +113,15 @@
   
   .description{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
+
       
   }
   
   .two-columns{
     display: flex; 
+    
     width: 80%;
     min-width: 784px;
     
