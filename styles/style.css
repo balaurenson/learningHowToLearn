@@ -112,18 +112,17 @@
   /* Second block: Description */
   
   .description{
-      
-      display: flex;
-  
-      justify-content: center;
-      margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
       
   }
   
   .two-columns{
-      
-      width: 80%;
-      display: flex;
+    display: flex; 
+    width: 80%;
+    min-width: 784px;
+    
       
   }
   
