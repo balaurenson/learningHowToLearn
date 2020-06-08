@@ -18,7 +18,6 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    display: flex;
     position: relative;
     background-color: #f2f2f2;
     margin-bottom: 100px;
@@ -70,7 +69,6 @@
   .header__main-illustration {
     display: flex;
     position: absolute;
-    bottom: 0px;
     right: 64px;
     width: 765px;
     height: 608px;
@@ -304,7 +302,7 @@
       
   }
   
-  .table__theme_dark{
+  .table_theme_dark{
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -432,10 +430,9 @@
     font-weight: normal;
     margin: auto;  
     text-decoration: none;
-    margin:0;
 }
   
-  .footer__column_content-social{
+  .footer__column_content_social{
     text-decoration: none;
     position: relative;
     list-style: none;
