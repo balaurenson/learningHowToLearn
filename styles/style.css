@@ -98,7 +98,7 @@
   .two-columns{
     display: flex; 
     min-width: 784px;
-    /*width: 80%; */
+    justify-content: space-between;
 }
   
   
@@ -116,7 +116,7 @@
   .two-columns__main-text{
     display: flex;
       flex-direction: column;
-      margin: 0 auto;
+      margin: 0;
       min-width: 784px;
       width: 80%; /**/
 }
@@ -125,12 +125,12 @@
     line-height: 34px;
       font-size: 24px;
       font-weight: normal;
-      margin: 0 auto;
+      margin-top: 0;
+      margin-bottom: 30px;
 }
   
-  .two-columns__paragraph:nth-child(2){
-      margin-top: 30px;
-      margin-bottom: 30px;
+  .two-columns__paragraph:nth-last-child(1){
+      margin:0;
   }
   
   .two-columns__span-accent{
@@ -202,7 +202,7 @@
      font-size: 24px;
      font-weight: bold;
     margin-top: 0;
-      margin-bottom: 30px;
+    margin-bottom: 30px;
       
   }
   
@@ -221,7 +221,7 @@
       position: relative;
       height: 790px;
     background-color: #f2f2f2;
-      background-image: url("https://i.imgur.com/aqlvkxU.png");
+      background-image: url("../images/feynman.png");
       background-position: bottom left;
       background-repeat: no-repeat;
       background-size: 867px 637px;
@@ -260,6 +260,8 @@
       position: absolute;
       top: 50%;
       right: 48px;
+      text-decoration: none;
+      color: black;
       
       
   }
@@ -410,6 +412,8 @@
     justify-content: space-between;
     position: relative;
     margin: 0;
+    list-style: none;
+    padding: 0;
 }
   
   .footer__column-heading{
@@ -430,29 +434,30 @@
     font-weight: normal;
     margin: auto;  
     text-decoration: none;
+    color: white;
 }
   
   .footer__column_content_social{
+    
+    
     text-decoration: none;
     position: relative;
     list-style: none;
     padding: 0;
-    
 }
   
   .footer__social-icon{
-    display: flex;
     position: relative;
+    top: 2px;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
     justify-content: space-between;
-    text-decoration: none;
     color: white;
     list-style: none;
-    margin-right: 0;
-    
-    
+    margin-right: 10px;
+    padding: 0;
+    text-decoration: none;
 }
   
 
