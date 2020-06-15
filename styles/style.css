@@ -401,11 +401,12 @@
     bottom: 0;
     left: 0;
     border: 0;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+    
 }
   
   .footer__column_content_info{
@@ -420,8 +421,7 @@
     line-height: 45px;
     font-size: 18px;
     font-weight: bold;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0;
     text-decoration: none;
 }
   
@@ -438,8 +438,6 @@
 }
   
   .footer__column_content_social{
-    
-    
     text-decoration: none;
     position: relative;
     list-style: none;
@@ -460,5 +458,21 @@
     text-decoration: none;
 }
   
-
+.footer__social-icon-list{
+  position: relative;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
   
+.footer__column-list{
+  position: relative;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+}
