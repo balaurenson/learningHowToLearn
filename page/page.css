@@ -16,6 +16,7 @@
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/table/table__cell_theme_dark.css);
+@import url(../blocks/rotation/rotation.css);
 
 
 .page {
