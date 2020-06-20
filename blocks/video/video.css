@@ -1,0 +1,11 @@
+@import url(../video/__iframe/video__iframe.css);
+@import url(../video/__iframe/video__iframe:nth-last-child1.css);
+@import url(../video/__iframes/video__iframes.css);
+
+.video{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }

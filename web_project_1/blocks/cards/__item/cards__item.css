@@ -1,9 +1,0 @@
-@import url(../__item/cards__item:nth-last-child3.css);
-
-.cards__item{
-    Display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-    width: 240px;
-    list-style: none;
-  }

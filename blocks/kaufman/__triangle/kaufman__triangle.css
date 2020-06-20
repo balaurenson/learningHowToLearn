@@ -1,0 +1,21 @@
+.kaufman__triangle{
+    position: absolute;
+    z-index: 0;
+    height: 877px;
+    width: 877px;
+    right: -210px;
+    top: 0;
+    overflow: hidden;
+    animation: rotation 20s linear infinite;
+    
+    
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
