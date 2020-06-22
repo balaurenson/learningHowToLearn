@@ -3,6 +3,5 @@
     display: flex;
     position: relative;
     margin: auto;
-    flex-wrap: wrap;
     flex-direction: column;
   }

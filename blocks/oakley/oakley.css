@@ -1,9 +1,7 @@
 .oakley {
   display: flex;
-  position: relative;
   background-color: #f2f2f2;
   padding-top: 160px;
   padding-bottom: 80px;
-  overflow: visible;
-  z-index: -1;
+  overflow: visible;  
 }

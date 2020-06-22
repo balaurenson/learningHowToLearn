@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning how to learn</title>
     <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./page/page.css">   
+    <link rel="stylesheet" href="./pages/index.css">   
 </head>
 <body>
     <div class="page">
@@ -14,7 +14,7 @@
           <h1 class="header__title">Learning how to learn</h1>
           <p class="header__subtitle">The most effective, cutting-edge learning
 techniques that you can apply to your daily life.
-            <a class="header__link" href="#">Learn more &#8594; </a>
+            <a class="header__link" href="#">Learn more &rarr;</a>
           </p>
           <img class="header__main-illustration" alt="main illustration" src="./images/header-image.png">
           
@@ -70,12 +70,12 @@ techniques that you can apply to your daily life.
             <section class="video">
               <h2 class="section-title">TED talks</h2>
                 <p class="section-subtitle">For lovers of procrastination</p>
-                  <div class="video__iframes">
+                  <ul class="video__iframes">
 
-                    <iframe title="youtube" class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe title="youtube" class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </video>  
-                  </div>
+                    <li><iframe title="youtube" class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    <li><iframe title="youtube" class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                     
+                  </ul>
 
             </section>
 
@@ -84,14 +84,15 @@ techniques that you can apply to your daily life.
               <h2 class="two-columns__brief">Barbara Oakley’s story. </h2>
                 <div class="two-columns__main-text">
                   <p class=" two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a 
-                    humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after school she enlisted in the army, who sent her to learn Russian. After several years of service, during which she rose to the rank of Captain, Barbara left the army and decided to study engineering. In was during this time that she developed her learning methodology as she was forced to reprogram her brain for a different kind of learning. It turns out that when something doesn't come naturally to you, having to work hard to gain the knowledge that other people may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+                    humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after school she enlisted in the army, who sent her to learn Russian. After several years of service, during which she rose to the rank of Captain, Barbara left the army and decided to study engineering. In was during this time that she developed her learning methodology as she was forced to reprogram her brain for a different kind of learning. It turns out that when something doesn't come naturally to you, having to work hard to gain the knowledge that other people may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.</p>
+                </div>
               </div>
             </section>
 
             <section class="feynman">
               <h2 class="feynman__title">The Feynman Technique</h2>
                 <p class="feynman__subtitle">Learning without forgetting.
-                  <a href="#" class="feynman__link">More &#8594; </a>
+                  <a href="#" class="feynman__link">More &rarr;</a>
                 </p>
             </section>
 
@@ -132,15 +133,13 @@ techniques that you can apply to your daily life.
               <div class="khan__container">
                 <h2 class="khan__author">Salman Khan</h2>
                   <p class="khan__title">The One World Schoolhouse</p>
-                  <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
-                    students worldwide. The One World Schoolhouse is a must-read for all 
-                    who are committed to improving education so students everywhere can 
-                    gain the skills and knowledge to be successful in school, careers and life.</p>
+                  <blockquote cite=""><p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
+                    students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and knowledge to be successful in school, careers and life.</p></blockquote>
                   <p class="khan__quote-author">George Lucas</p>
                   <p class="khan__quote-author-subline">Filmmaker</p>
                   <div class="khan__book-container">
                   <img class="khan__book-pic" src="./images/khan-book.png" alt="book">
-                  <a href="#" class="khan__buy-link">Buy book &#8594;</a>
+                  <a href="#" class="khan__buy-link">Buy book &rarr;</a>
                   </div>
               </div>
         
@@ -190,12 +189,21 @@ techniques that you can apply to your daily life.
             <section class="resources">
               <h2 class="section-title">Useful resources </h2>
                 <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
-                <p class="resources__logo-zone">
-                  <img href="#" class="resources__logo" src="./images/resources-tedED.png">
-                  <img href="#" class="resources__logo" src="./images/resources-Medium.png">
-                  <img href="#" class="resources__logo" src="./images/resources-dezeen.png">
-                  <img href="#" class="resources__logo" src="./images/resources-goodreads.png">
+              <ul class="resources__logo-zone">
+                  <li>
+                    <a href="#"><img class="resources__logo" alt="logo image" src="./images/resources-tedED.png"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img class="resources__logo" alt="logo image" src="./images/resources-Medium.png"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img class="resources__logo" alt="logo image" src="./images/resources-dezeen.png"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img class="resources__logo" alt="logo image" src="./images/resources-goodreads.png"></a>
+                  </li>
                 </p>
+              </ul>
             </section>
 
         </main>
@@ -217,10 +225,10 @@ techniques that you can apply to your daily life.
           
             <div class="footer__column footer__column_content_social">
               <h2 class="footer__column-heading">Social media</h2>
-                <ul class="footer__social-icon-list">
-                  <li> <a href="https://www.facebook.com/YPracticum/" class="footer__social-icon"><img class="footer__social-icon" alt="Icon" src="images/facebook_color_white.svg">Facebook</a>
+                <ul class="footer__column-list">
+                  <li> <a href="https://www.facebook.com/YPracticum/" class="footer__column-links"><img class="footer__social-icon" alt="Icon" src="images/facebook_color_white.svg">Facebook</a>
                 </li>
-                <li> <a href="https://www.instagram.com/yndx.praktikum/" class="footer__social-icon"><img class="footer__social-icon" alt="Icon" src="images/instagram_color_white.svg">Instagram</a>
+                <li> <a href="https://www.instagram.com/yndx.praktikum/" class="footer__column-links"><img class="footer__social-icon" alt="Icon" src="images/instagram_color_white.svg">Instagram</a>
                 </li>
                 </ul>
             

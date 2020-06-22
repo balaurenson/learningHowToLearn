@@ -3,8 +3,6 @@
     width: 730px;
     line-height: 96px;
     align-self: center;
-    justify-content: center;
-    flex-direction: column;
     margin-left: 64px;
     font-weight: bold;
 }
