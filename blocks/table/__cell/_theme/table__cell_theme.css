@@ -1,8 +1,4 @@
-@import url(./_theme_dark/table__cell_theme_dark.css);
-@import url(./_theme_light/table__cell_theme.css);
-
-
-.table__cell {
+.table__cell_theme{
     list-style: none;
     display: flex;
     position: relative;
