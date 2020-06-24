@@ -1,13 +1,9 @@
-@import url(./_theme_dark/table__cell_theme_dark.css);
-@import url(./_theme_light/table__cell_theme.css);
-
-
 .table__cell {
-    list-style: none;
-    display: flex;
-    position: relative;
-    padding-top: 60px;
+  list-style: none;
+  display: flex;
+  position: relative;
+  padding-top: 60px;
   width: 250px;
-    flex-direction: column;
-    justify-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
 }

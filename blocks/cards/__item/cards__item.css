@@ -1,4 +1,4 @@
-.cards__item{
+.cards__item {
     display: flex;
     flex-direction: column;
     margin-right: 100px;
@@ -6,6 +6,6 @@
     list-style: none;
   }
 
-  .cards__item:nth-child(3){
+  .cards__item:nth-child(3n+0) {
     margin-right: 0;
   }
